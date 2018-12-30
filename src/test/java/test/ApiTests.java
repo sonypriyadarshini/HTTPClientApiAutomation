@@ -104,8 +104,7 @@ public class ApiTests extends BaseCommon {
         UsersRequestData usersRequestData = new UsersRequestData("mydummyname","mydummyjob");
 
         //object to json file
-        mapper.writeValue(new File("/Users/sony.priyadarshini/Documents/Sony_Personal_Code/" +
-                "HTTPClientApiAutomation/src/main/java/requestData/Users.json"), usersRequestData);
+        mapper.writeValue(new File(System.getProperty("user.dir")+"/src/main/java/requestData/Users.json"), usersRequestData);
 
         //object to json string
         String payload = mapper.writeValueAsString(usersRequestData);
@@ -123,7 +122,7 @@ public class ApiTests extends BaseCommon {
         JsonParser jsonParser = new JsonParser();
         JsonElement jsonTree = jsonParser.parse(stringResponse);
         JsonObject jsonObject = jsonTree.getAsJsonObject();
-        Assert.assertTrue(jsonObject.get("name").toString().equals("\"mydummyname\""));
-        Assert.assertTrue(jsonObject.get("job").toString().equals("\"mydummyjob\""));
+        Assert.assertTrue(jsonObject.get("name").toString().equals("\"mydummyname\""),"Name isn't updated");
+        Assert.assertTrue(jsonObject.get("job").toString().equals("\"mydummyjob\""),"Job isn't updated");
     }
 }
