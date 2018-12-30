@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c199daad-6cdb-4b93-be10-cbd29fb15ba5" name="Default" comment="" />
+    <list default="true" id="c199daad-6cdb-4b93-be10-cbd29fb15ba5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/requestData/Users.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/requestData/UsersRequestData.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pojo/Datum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pojo/Users.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pojo/Datum.java" afterPath="$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pojo/Users.java" afterPath="$PROJECT_DIR$/src/main/java/pojoResponse/Users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/client/RestApiHelperMethods.class" afterPath="$PROJECT_DIR$/target/classes/client/RestApiHelperMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/ApiTests.class" afterPath="$PROJECT_DIR$/target/test-classes/test/ApiTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTTPClientApiAutomation.iml" afterPath="$PROJECT_DIR$/HTTPClientApiAutomation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/BaseCommon.java" afterPath="$PROJECT_DIR$/src/main/java/base/BaseCommon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java" afterPath="$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/ApiTests.java" afterPath="$PROJECT_DIR$/src/test/java/test/ApiTests.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +32,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="723">
+              <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jackson-core-2.9.8.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -26,8 +52,8 @@
       <file leaf-file-name="BaseCommon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseCommon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,10 +64,11 @@
       <file leaf-file-name="RestApiHelperMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="45" column="59" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="45" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1929#1945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,89 +77,67 @@
       <file leaf-file-name="ApiTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/ApiTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="106" column="91" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1529#1545#0" expanded="true" />
+                <element signature="e#3685#3701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/requestData/Users.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Datum.java">
+      <file leaf-file-name="UsersRequestData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/requestData/UsersRequestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Datum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Users.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="105">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/TestUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpMessage.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HttpMessage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +145,8 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/config/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -169,12 +174,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/config/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/client/RestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/PojoClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/Datum.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/Users.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ApiTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/requestData/UsersRequestData.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test/ApiTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseCommon.java" />
       </list>
     </option>
@@ -197,7 +203,9 @@
     <option name="width" value="1680" />
     <option name="height" value="943" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -264,6 +272,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTTPClientApiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTTPClientApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojoResponse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTTPClientApiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTTPClientApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="requestData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTTPClientApiAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -337,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ApiTests">
+  <component name="RunManager" selected="TestNG.ApiTests.postTest">
     <configuration name="ApiTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -384,6 +408,38 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ApiTests" />
       <option name="METHOD_NAME" value="getTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ApiTests.postTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HTTPClientApiAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTests" />
+      <option name="METHOD_NAME" value="postTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -495,14 +551,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="TestNG.ApiTests.getTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.ApiTests" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ApiTests.postTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ApiTests" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ApiTests.postTest" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.ApiTests.getTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ApiTests" />
       </list>
     </recent_temporary>
   </component>
@@ -519,47 +577,48 @@
       <workItem from="1546148663519" duration="6441000" />
       <workItem from="1546158102473" duration="12000" />
       <workItem from="1546158120490" duration="21000" />
-      <workItem from="1546158180436" duration="237000" />
+      <workItem from="1546158180436" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTests - 2018.12.30 at 12h 52m 46s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 09m 54s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 12h 54m 48s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 10m 44s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 12h 55m 01s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 11m 22s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 39m 14s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 11m 43s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 40m 39s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 12m 51s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 51m 27s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 14m 11s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 53m 22s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 16m 33s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 55m 15s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 18m 27s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests - 2018.12.30 at 13h 56m 23s.xml">
-      <configuration name="ApiTests" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 28m 13s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTests_getTest - 2018.12.30 at 12h 15m 22s.xml">
-      <configuration name="ApiTests.getTest" configurationId="TestNG" />
+    <history-entry file="ApiTests_postTest - 2018.12.30 at 18h 28m 46s.xml">
+      <configuration name="ApiTests.postTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6711000" />
+    <option name="totallyTimeSpent" value="12215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -569,13 +628,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -587,7 +647,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,62 +684,27 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1929#1945#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Datum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,7 +737,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1529#1545#0" expanded="true" />
+            <element signature="e#3685#3701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,62 +769,27 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1929#1945#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Datum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,7 +822,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1529#1545#0" expanded="true" />
+            <element signature="e#3685#3701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,62 +854,27 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1929#1945#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Datum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -945,7 +907,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1529#1545#0" expanded="true" />
+            <element signature="e#3685#3701#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,100 +931,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Datum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojoResponse/Datum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="150">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/requestData/UsersRequestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="723">
+          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ApiTests.java">
+    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/RestApiHelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="45" column="59" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="45" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1929#1945#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/requestData/Users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ApiTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="106" column="91" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1529#1545#0" expanded="true" />
+            <element signature="e#3685#3701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseCommon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
