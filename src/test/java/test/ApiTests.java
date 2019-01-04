@@ -8,6 +8,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.sun.org.glassfish.gmbal.Description;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.testng.Assert;
@@ -37,7 +38,7 @@ public class ApiTests extends BaseCommon {
         url = properties.getProperty("URL") + properties.getProperty("user");
     }
 
-    //test to call get method with header. statuscode, headers and body are printed as part of the get() called.
+    // test to call get method with header. statuscode, headers and body are printed as part of the get() called.
     // no additional validations in the test is done.
 
     @Test
@@ -91,7 +92,11 @@ public class ApiTests extends BaseCommon {
         }
     }
 
+    //POST method with header and payload.
+    //StatusCode validation is done using HttpResponse and other validations are done using HttpResponse and Gson
+
     @Test
+    @Description("Check POST api with Header, Payload and validate the response received using GSON")
     public void postTest() throws IOException {
         restApiHelperMethods = new RestApiHelperMethods();
 
@@ -103,7 +108,7 @@ public class ApiTests extends BaseCommon {
         ObjectMapper mapper = new ObjectMapper();
         UsersRequestData usersRequestData = new UsersRequestData("mydummyname","mydummyjob");
 
-        //object to json file
+        //object to json file. this creates User.json file in the given path
         mapper.writeValue(new File(System.getProperty("user.dir")+"/src/main/java/requestData/Users.json"), usersRequestData);
 
         //object to json string
