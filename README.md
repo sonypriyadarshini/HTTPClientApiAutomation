@@ -1,4 +1,4 @@
-<h1>API automation framework using Apache-HTTpClient</h1>
+<h1>API automation framework using Apache-HTTPClient</h1>
 <h3>Package-test</h3>
 
 Contains TestCases for Get and Post method with and without headers.
